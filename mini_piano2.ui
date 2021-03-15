@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>319</width>
-    <height>138</height>
+    <width>321</width>
+    <height>169</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>100</y>
+     <x>80</x>
+     <y>130</y>
      <width>141</width>
      <height>32</height>
     </rect>
@@ -36,13 +36,22 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -53,14 +62,22 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -70,13 +87,22 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -87,13 +113,22 @@
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -104,14 +139,22 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -121,13 +164,22 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -138,13 +190,22 @@
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -155,13 +216,25 @@
    <property name="geometry">
     <rect>
      <x>150</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -172,14 +245,22 @@
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -189,13 +270,22 @@
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -206,14 +296,22 @@
    <property name="geometry">
     <rect>
      <x>210</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -223,13 +321,22 @@
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -240,13 +347,22 @@
    <property name="geometry">
     <rect>
      <x>250</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -257,14 +373,22 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -274,14 +398,22 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -291,13 +423,22 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}
 </string>
    </property>
    <property name="text">
@@ -308,14 +449,22 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -325,14 +474,22 @@
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -342,13 +499,22 @@
    <property name="geometry">
     <rect>
      <x>140</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}
 </string>
    </property>
    <property name="text">
@@ -359,14 +525,22 @@
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -376,14 +550,22 @@
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -393,14 +575,22 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -410,14 +600,22 @@
    <property name="geometry">
     <rect>
      <x>260</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
-</string>
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}</string>
    </property>
    <property name="text">
     <string/>
@@ -427,13 +625,25 @@
    <property name="geometry">
     <rect>
      <x>290</x>
-     <y>10</y>
+     <y>40</y>
      <width>21</width>
      <height>81</height>
     </rect>
    </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color:white;
+    <string notr="true">QPushButton
+{
+      background-color: white;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #360051;
+      border:1px solid red;
+}
 </string>
    </property>
    <property name="text">
@@ -444,17 +654,270 @@
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>10</y>
+     <y>40</y>
      <width>16</width>
      <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:violet;
+    <string notr="true">QPushButton
+{
+      background-color: violet;
+      border:1px solid black;
+}
+QPushButton:hover
+{
+      background-color: #630009;
+      border:1px solid violet;
+}
 </string>
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> Hello.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>70</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> What are you doing over here?</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_4">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>70</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> There's nothing over here.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_5">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>70</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> ...</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_6">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>70</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>  Stop.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_7">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>70</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>  Don't do this.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_8">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>70</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> No.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_9">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>70</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> ...No!</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_10">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>70</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> NOOOOOOOOO!!</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_11">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>70</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> ( ͡° ͜ʖ ͡°) Look what you've done.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_12">
+   <property name="geometry">
+    <rect>
+     <x>1450</x>
+     <y>70</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> ( ͡° ͜ʖ ͡°) You've awoken him.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameDisplay_13">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>70</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string> ( ͡° ͜ʖ ͡°) Now it's all over for you.</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

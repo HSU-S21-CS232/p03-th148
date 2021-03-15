@@ -1,30 +1,9 @@
 import sys
-# import os
 from PySide2.QtUiTools import QUiLoader
 from PySide2.QtWidgets import QApplication, QPushButton
 from PySide2.QtCore import QFile, QObject
 
 from playsound import playsound
-
-# from pydub import AudioSegment
-# from pydub.playback import play
-
-# cwd = os.getcwd()
-
-# wavepath = cwd+'\\StudioRhodesCsharp4R.wav'
-
-# sound = AudioSegment.from_file(wavepath, format="wav")
-
-# play(sound)
-# print(sound.frame_rate)
-
-# octaves = -0.5
-
-# new_sample_rate = int(sound.frame_rate * (2.0 ** octaves))
-
-# adjusted_sound = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate})
-
-# play(adjusted_sound)
 
 class MainWindow(QObject):
 
@@ -39,18 +18,46 @@ class MainWindow(QObject):
 
         ui_file.close()
 
-        # self.addEventListeners()
+        self.addEventListeners()
 
         self.window.show()
 
     def addEventListeners(self):
 
-        self.window.findChild(QPushButton, 'A_push').clicked.connect(playsound('StudioRhodesCsharp4R.wav'))
+        self.window.findChild(QPushButton, 'A_push').released.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'ASharp_push').clicked.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'B_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'C_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'CSharp_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'D_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'DSharp_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'E_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'F_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'FSharp_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'G_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'GSharp_push').pressed.connect(self.AKeyHeld)
+
+        self.window.findChild(QPushButton, 'A2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'ASharp2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'B2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'C2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'CSharp2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'D2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'DSharp2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'E2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'F2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'FSharp2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'G2_push').pressed.connect(self.AKeyHeld)
+        self.window.findChild(QPushButton, 'GSharp2_push').pressed.connect(self.AKeyHeld)
+
+        self.window.findChild(QPushButton, 'A3_push').pressed.connect(self.AKeyHeld)
 
     def AKeyHeld(self):
-        self.playsound('StudioRhodesCsharp4R.wav')
+
+        playsound('LilCSharp copy.wav')
 
 if __name__ == '__main__':
+
     app = QApplication(sys.argv)
     main_window = MainWindow('mini_piano2.ui')
     sys.exit(app.exec_()) 

@@ -1,0 +1,17 @@
+Reflection:
+
+Challenges in this project were very similar to past projects,
+with some roadblocks of depressingly long spans of time searching
+ for the reason things weren't working online. I think I am slowly
+  improving at sifting through python data and documentation to
+   find what I need, but time will tell. I do like the end result
+    of this project, the mini piano is a nice product.
+
+    Specifically, the parts that took me the longest were:
+     Figuring out I had commented out the line:
+     self.addEventListeners()
+
+     and
+     Figuring out that if you don't specify a border size in
+     Qt Designer, it prevents you from adding hover functionality
+     to your buttons.
